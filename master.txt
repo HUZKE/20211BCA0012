@@ -1,2 +1,72 @@
 this is edited line
 hello my name is raja the great
+
+$ pwd
+
+$ mkdir devops
+
+$ cd devops
+
+devops $ git –version
+
+devops $ git –help
+
+devops $ git cofig –global user.name “huzke”
+
+devops $ git cofig –global user.email huskyhemanth@gmail.com
+
+devops $ git cofig –list
+
+devops $ git init
+
+$ touch master.txt
+
+$ notepad master.txt
+
+$ git status
+
+$ git add .
+
+$ git status
+
+$ git commit –m “Any statement u want to give”
+
+$ git status
+
+$ git log
+
+$ touch master1.txt
+
+$ notepad master1.txt
+
+$ notepad master.txt   ( Make Changes in file)
+
+$ git status
+
+$ git add .
+
+$ git status
+
+$ git commit –m “Any other statement u want to give ”
+
+$ git status
+
+$ git log
+
+Pushing Local Repository on the Github Server (placeholder for my local repository on server)
+
+Login to Github
+
+Click New repository
+
+Give name devops
+
+$ git remote add origin <add link>  (To add local repository to Server)
+
+$ git remote –v (to check if it is added correctly)
+
+$ git push –u origin master 
+
+Github login page will be opened
+
+Refresh page on Github (all commits are visible)
